@@ -1,0 +1,86 @@
+* {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+   max-width: 20rem;
+   background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.267), rgba(2, 48, 255, 0.29));
+   border-radius: 15px;
+   display: block;
+   margin:3rem auto
+}
+
+.searchbox {
+   padding: 1rem 1rem 0rem 1rem;
+   display: flex;
+   align-items: center ;
+   justify-content: space-between;
+   border-width: 1rem;
+   border-color: black;
+   border-radius: 20px;
+   margin-bottom: 2rem;
+}
+
+input {
+   border-radius: 30px;
+   padding-left: 1rem;
+   width: 100%;
+   margin-right: 1rem;
+   height: 2.5rem;
+   border: none;
+   background: rgb(244, 244, 244);
+   font-size: 1.2rem;
+}
+
+.searchbox button img {
+   max-width: 2rem;
+   height: 1rem;
+}
+
+.searchbox button {
+   border-radius: 50%;
+   border: none;
+   height: 2.5rem;
+   width: 3rem;
+   cursor: pointer;
+
+}
+
+.weather-img {
+   max-width: 8rem;
+   margin: auto;
+   display: block;
+
+}
+.stats {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 3rem;
+}
+
+.stat-img {
+   max-width: 3rem;
+}
+
+h1,h2 {
+text-align: center;
+font-weight: 400;
+}
+
+.stat-header {
+   margin: 0rem;
+}
+
+.stats {
+   margin-top: 2rem; 
+}
+.stat {
+   margin-top: 0;
+}
+
+.temp {
+   font-size: 5rem;
+   margin-top: 1rem;
+   margin-bottom: 2rem;
+}
